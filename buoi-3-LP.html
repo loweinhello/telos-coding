@@ -1,0 +1,137 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440px, initial-scale=1.0" />
+    <title>Hương - BT3 Hero Section</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      header {
+        height: 72px;
+        display: flex;
+        padding: 0px 80px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .left-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0px;
+      }
+      .Logo {
+        height: 28px;
+      }
+      .menu-item {
+        font-family: Inter, sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #18191f;
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+      }
+      .dropdown {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .CTA {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 12px;
+      }
+      .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        padding: 69px;
+      }
+      .tagline {
+        font-family: inter;
+        font-size: 72px;
+        line-height: 80px;
+        font-weight: 1000;
+        color: #18191f;
+        text-align: center;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 12px 32px;
+        align-items: center;
+        font-family: inter;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        background-color: #8c30f5;
+        border-radius: 6px;
+      }
+      .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        overflow: hidden;
+        height: 376px;
+      }
+      .thumbnail {
+        height: auto;
+        object-fit: cover;
+        position: absolute;
+        filter: drop-shadow(8px 10px 5px rgba(41, 41, 42, 0.3));
+      }
+      .circle {
+        position: absolute;
+        width: 1200px;
+        height: 1200px;
+        border-radius: 100%;
+        background-color: #d6b1ff;
+        margin-top: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="left-nav">
+        <img src="Download Badge/Dark.svg" alt="logo" class="Logo" />
+        <ul class="menu-item">
+          <li>About</li>
+          <li>Products</li>
+          <li>Pricing</li>
+          <li>Blog</li>
+          <li>Jobs</li>
+          <li>
+            <div class="dropdown">
+              More <img src="Download Badge/chevron-down.png" alt="" />
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="CTA">
+        <li><img src="Download Badge/Google Play Badge.svg" alt="GG" /></li>
+        <li><img src="Download Badge/App Store Badge.svg" alt="Apple" /></li>
+      </ul>
+    </header>
+    <header-copy>
+      <div class="hero-content">
+        <div class="tagline">
+          Track your product sales from anywhere, anytime.
+        </div>
+        <div class="button">Start selling</div>
+      </div>
+    </header-copy>
+    <div class="container">
+      <div class="circle"></div>
+      <img class="thumbnail" src="Download Badge/iPhone X-ns.png" alt="" />
+    </div>
+  </body>
+</html>
