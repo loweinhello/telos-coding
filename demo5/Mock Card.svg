@@ -1,0 +1,36 @@
+<svg width="234" height="241" viewBox="0 0 234 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8C0 3.58172 3.58172 0 8 0H226C230.418 0 234 3.58172 234 8V206H0V8Z" fill="white"/>
+<g clip-path="url(#clip0_2432_174)">
+<rect x="24" y="24" width="72" height="20" rx="10" fill="#F4F5F7"/>
+<rect x="24" y="54" width="186" height="8" rx="4" fill="#F4F5F7"/>
+<rect x="24" y="72" width="186" height="8" rx="4" fill="#F4F5F7"/>
+<rect x="24" y="90" width="120" height="8" rx="4" fill="#F4F5F7"/>
+</g>
+<line x1="24" y1="121.5" x2="210" y2="121.5" stroke="#F4F5F7"/>
+<g clip-path="url(#clip1_2432_174)">
+<g clip-path="url(#clip2_2432_174)">
+<rect x="24" y="148" width="88" height="8" rx="4" fill="#F4F5F7"/>
+<rect x="138" y="146" width="72" height="12" rx="6" fill="#F4F5F7"/>
+</g>
+<g clip-path="url(#clip3_2432_174)">
+<rect x="24" y="172" width="88" height="8" rx="4" fill="#F4F5F7"/>
+<rect x="138" y="170" width="72" height="12" rx="6" fill="#F4F5F7"/>
+</g>
+</g>
+<path d="M0 206H234V233C234 237.418 230.418 241 226 241H8C3.58172 241 0 237.418 0 233V206Z" fill="#474A57"/>
+<rect x="16" y="218" width="158" height="11" rx="5.5" fill="#D9DBE1"/>
+<defs>
+<clipPath id="clip0_2432_174">
+<rect width="186" height="74" fill="white" transform="translate(24 24)"/>
+</clipPath>
+<clipPath id="clip1_2432_174">
+<rect width="186" height="36" fill="white" transform="translate(24 146)"/>
+</clipPath>
+<clipPath id="clip2_2432_174">
+<rect width="186" height="12" fill="white" transform="translate(24 146)"/>
+</clipPath>
+<clipPath id="clip3_2432_174">
+<rect width="186" height="12" fill="white" transform="translate(24 170)"/>
+</clipPath>
+</defs>
+</svg>
